@@ -14,7 +14,7 @@ public class PDFGenerator
     Font Red => new (bf, 9, Font.BOLD, BaseColor.RED);
     Font Blue => new (bf, 10, Font.BOLD, BaseColor.BLUE);
 
-    private const string Directory = @"C:\Users\a7h30\Desktop\nested_tables.pdf";
+    private static string Directory => System.IO.Directory.GetCurrentDirectory() + @"\Files";
 
     public void Print(BillCounter.User[] users)
     {
@@ -23,8 +23,10 @@ public class PDFGenerator
         Encoding.RegisterProvider(ppp);
 
         var document = new Document();
-        
-        PdfWriter.GetInstance(document, new FileStream(Directory, FileMode.Create));
+
+        System.IO.Directory.CreateDirectory(Directory);
+            
+        PdfWriter.GetInstance(document, new FileStream(Directory + $@"\{DateTime.Now:yyyy-M-d dddd}.pdf", FileMode.Create));
         
         document.Open();
 

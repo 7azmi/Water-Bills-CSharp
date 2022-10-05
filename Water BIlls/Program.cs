@@ -22,8 +22,6 @@ var usersNameInEnglish = new[]
 
 new PDFGenerator().Print(GetUsersInput());
 
-Console.WriteLine("Hello, World!");
-
 BillCounter.User[] GetUsersInput()
 {
     var users = new BillCounter.User[usersNames.Length];
@@ -38,7 +36,6 @@ BillCounter.User[] GetUsersInput()
         users[i].UnitCost = unitCost;
         users[i].Arrears = SetArrears();
     }
-
     return users;
     
     string GetName(int index)
@@ -46,6 +43,7 @@ BillCounter.User[] GetUsersInput()
         Print(usersNameInEnglish[index]);
         return usersNames[index];
     }
+    
     double SetUnitCost()
     {
         Print("Set unit cost for this month please");
@@ -57,21 +55,19 @@ BillCounter.User[] GetUsersInput()
         Print("Set last unit please");
         return GetIntInput();
     }
+    
     int SetCurrentUnit()
     {
         Print("Set current unit please");
         return GetIntInput();
-
-        
     }
+    
     int SetArrears()
     {
         Print("Set arrears if any");
         return GetIntInput(true);
-
     }
-    void Print(string log) => Console.WriteLine(log);
-
+    
     int GetIntInput(bool skippable = false)
     {
         goBack:
@@ -80,4 +76,5 @@ BillCounter.User[] GetUsersInput()
         if (skippable) return 0;
         goto goBack; 
     }
+    void Print(string log) => Console.WriteLine(log);
 } 
