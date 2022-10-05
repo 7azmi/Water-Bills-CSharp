@@ -1,0 +1,20 @@
+C:\Users\a7h30\RiderProjects\Water BIlls\Water BIlls\bin\Debug\net6.0\Water BIlls.exe
+C:\Users\a7h30\RiderProjects\Water BIlls\Water BIlls\bin\Debug\net6.0\Water BIlls.deps.json
+C:\Users\a7h30\RiderProjects\Water BIlls\Water BIlls\bin\Debug\net6.0\Water BIlls.runtimeconfig.json
+C:\Users\a7h30\RiderProjects\Water BIlls\Water BIlls\bin\Debug\net6.0\Water BIlls.dll
+C:\Users\a7h30\RiderProjects\Water BIlls\Water BIlls\bin\Debug\net6.0\Water BIlls.pdb
+C:\Users\a7h30\RiderProjects\Water BIlls\Water BIlls\obj\Debug\net6.0\Water BIlls.csproj.AssemblyReference.cache
+C:\Users\a7h30\RiderProjects\Water BIlls\Water BIlls\obj\Debug\net6.0\Water BIlls.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a7h30\RiderProjects\Water BIlls\Water BIlls\obj\Debug\net6.0\Water BIlls.AssemblyInfoInputs.cache
+C:\Users\a7h30\RiderProjects\Water BIlls\Water BIlls\obj\Debug\net6.0\Water BIlls.AssemblyInfo.cs
+C:\Users\a7h30\RiderProjects\Water BIlls\Water BIlls\obj\Debug\net6.0\Water BIlls.csproj.CoreCompileInputs.cache
+C:\Users\a7h30\RiderProjects\Water BIlls\Water BIlls\obj\Debug\net6.0\Water BIlls.dll
+C:\Users\a7h30\RiderProjects\Water BIlls\Water BIlls\obj\Debug\net6.0\refint\Water BIlls.dll
+C:\Users\a7h30\RiderProjects\Water BIlls\Water BIlls\obj\Debug\net6.0\Water BIlls.pdb
+C:\Users\a7h30\RiderProjects\Water BIlls\Water BIlls\obj\Debug\net6.0\Water BIlls.genruntimeconfig.cache
+C:\Users\a7h30\RiderProjects\Water BIlls\Water BIlls\obj\Debug\net6.0\ref\Water BIlls.dll
+C:\Users\a7h30\RiderProjects\Water BIlls\Water BIlls\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\a7h30\RiderProjects\Water BIlls\Water BIlls\bin\Debug\net6.0\itextsharp.dll
+C:\Users\a7h30\RiderProjects\Water BIlls\Water BIlls\obj\Debug\net6.0\Water BIlls.csproj.CopyComplete
+C:\Users\a7h30\RiderProjects\Water BIlls\Water BIlls\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\a7h30\RiderProjects\Water BIlls\Water BIlls\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
