@@ -6,6 +6,7 @@
         <RootNamespace>Water_BIlls</RootNamespace>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <ApplicationIcon>water.ico</ApplicationIcon>
     </PropertyGroup>
 
     <ItemGroup>
