@@ -20,9 +20,12 @@ var usersNameInEnglish = new[]
     
 };
 
+
+string startupPath = System.IO.Directory.GetCurrentDirectory();
+Console.WriteLine(startupPath);
 new PDFGenerator().Print(GetUsersInput());
 
-Console.WriteLine("Hello, World!");
+
 
 BillCounter.User[] GetUsersInput()
 {
