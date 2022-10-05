@@ -17,10 +17,12 @@ var usersNameInEnglish = new[]
     "Charity Office",
     "YBRD",
     "Hani Alhazmi's apartment"
-    
 };
 
 new PDFGenerator().Print(GetUsersInput());
+
+Console.WriteLine("Press any to exit...");
+Console.ReadKey();
 
 BillCounter.User[] GetUsersInput()
 {
@@ -35,6 +37,8 @@ BillCounter.User[] GetUsersInput()
         users[i].CurrentUnit = SetCurrentUnit();
         users[i].UnitCost = unitCost;
         users[i].Arrears = SetArrears();
+
+        GetSummaryInfo(users[i]);
     }
     return users;
     
@@ -66,6 +70,12 @@ BillCounter.User[] GetUsersInput()
     {
         Print("Set arrears if any");
         return GetIntInput(true);
+    }
+    
+    void GetSummaryInfo(BillCounter.User user)
+    {
+        Print($"Total: {user.Total}");
+        Print("-------------------------------------------");
     }
     
     int GetIntInput(bool skippable = false)
