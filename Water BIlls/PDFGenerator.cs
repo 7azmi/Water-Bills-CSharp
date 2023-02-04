@@ -26,7 +26,7 @@ public class PDFGenerator
 
         System.IO.Directory.CreateDirectory(Directory);
             
-        PdfWriter.GetInstance(document, new FileStream(Directory + $@"\{DateTime.Now:yyyy-M-d dddd}.pdf", FileMode.Create));
+        PdfWriter.GetInstance(document, new FileStream(Directory + $@"\{DateTime.Now:yyyy-M}.pdf", FileMode.Create));
         
         document.Open();
 
@@ -45,7 +45,7 @@ public class PDFGenerator
             var userAndDateTable = CreateTable(new[] { 1f, 2f });
 
             userAndDateTable.AddCell(CreateCell(user.Name, userAndDateTable, false, horizontalAlignment: Element.ALIGN_LEFT));
-            userAndDateTable.AddCell(CreateCell(DateTime.Now.ToString("yyyy-MM-dd"), userAndDateTable, false, horizontalAlignment: Element.ALIGN_RIGHT));
+            userAndDateTable.AddCell(CreateCell(DateTime.Now.ToString("yyyy-MM"), userAndDateTable, false, horizontalAlignment: Element.ALIGN_RIGHT));
 
             document.Add(userAndDateTable);
             
